@@ -46,8 +46,9 @@ class RandomWords extends StatefulWidget {
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
   final _biggerFont = const TextStyle(
-      fontSize: 18,
+      fontSize: 20,
       color: Color.fromARGB(224, 68, 2, 209),
+      wordSpacing: 2,
       decoration: TextDecoration.underline,
       fontFamily: ' Raleway',
       backgroundColor: Colors.yellow);
