@@ -45,8 +45,10 @@ class RandomWords extends StatefulWidget {
 
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
-  final _biggerFont =
-      const TextStyle(fontSize: 18, color: Color.fromARGB(224, 68, 2, 209));
+  final _biggerFont = const TextStyle(
+      fontSize: 18,
+      color: Color.fromARGB(224, 68, 2, 209),
+      decoration: TextDecoration.underline);
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
