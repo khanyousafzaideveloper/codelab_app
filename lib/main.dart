@@ -48,7 +48,9 @@ class _RandomWordsState extends State<RandomWords> {
   final _biggerFont = const TextStyle(
       fontSize: 18,
       color: Color.fromARGB(224, 68, 2, 209),
-      decoration: TextDecoration.underline);
+      decoration: TextDecoration.underline,
+      fontFamily: ' Raleway',
+      backgroundColor: Colors.yellow);
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
